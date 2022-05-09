@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityStandardAssets.Utility;
 
@@ -16,6 +15,7 @@ public class MoveWithTracker : MonoBehaviour
 
     private void Update()
     {
+        // target doesn't change over time, so only get it once
         _target ??= GetComponent<WaypointProgressTracker>().target;
         
         var pos = _transform.position;
@@ -23,6 +23,7 @@ public class MoveWithTracker : MonoBehaviour
         var heading = _target.position - pos;
         var distance = heading.magnitude;
         
+        // prevent dividing by 0
         if (distance == 0) return;
         
         var direction = heading / distance;
