@@ -1,0 +1,218 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 13.03.2017 13:32:57
+
+newmtl chrome
+	Ns 22
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl lambert
+	Ns 0
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl tire
+	Ns 16
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl brakedisk
+	Ns 21
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl black
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl white
+	Ns 25
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl blue
+	Ns 25
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 1
+	Kd 0 0 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl rim
+	Ns 20
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl mirror
+	Ns 26
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 1 1
+	Kd 0 1 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl carpaint
+	Ns 60
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 0 0 0
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl interior
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl clearglass
+	Ns 55
+	Ni 2
+	d 0
+	Tr 0
+	Tf 0 0 0 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl redglass
+	Ns 90
+	Ni 2
+	d 0
+	Tr 0
+	Tf 0 0 0 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl windowglass
+	Ns 90
+	Ni 2
+	d 0
+	Tr 0
+	Tf 0 0 0 
+	illum 2
+	Ka 0 0 0
+	Kd 0 0 0
+	Ks 1 1 1
+	Ke 0 0 0
+
+newmtl LicPlate_white
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl LicPlate_black
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 0 0 0
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl LicPlate_blue
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 0 0 1
+	Ks 0 0 0
+	Ke 0 0 0
+
+newmtl LicPlate_yellow
+	Ns 10
+	Ni 2
+	d 1
+	Tr 1
+	Tf 1 1 1 
+	illum 2
+	Ka 1 1 1
+	Kd 1 1 0
+	Ks 0 0 0
+	Ke 0 0 0
