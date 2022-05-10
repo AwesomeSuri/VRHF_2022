@@ -30,5 +30,8 @@ public class MoveWithTracker : MonoBehaviour
 
         pos += direction * (velocity * Time.deltaTime);
         _transform.position = pos;
+        
+        // turn accordingly
+        _transform.LookAt(_target);
     }
 }

@@ -3,7 +3,97 @@ guid: b25f161a3eac35449a3432b689f785fa
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_black
+    second: {fileID: 2100000, guid: 33ddf33b39f341b47a7c092f0e3b17d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_blue
+    second: {fileID: 2100000, guid: 320e8e176557100498a20ad9e44d0393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_white
+    second: {fileID: 2100000, guid: ff1a182a48460384983706d05f60ed90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LicPlate_yellow
+    second: {fileID: 2100000, guid: 3347829856b55ff41a13aecfc2cb5052, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 80e4a0167a349dc40b2acb503e1d2a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: 54a6869d1bb282b47aa42d4bf3f84bb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brakedisk
+    second: {fileID: 2100000, guid: c19298f82a074a14b838ffc749521fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpaint
+    second: {fileID: 2100000, guid: ee91d492009b4b14fbd129b13ec2ad4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome
+    second: {fileID: 2100000, guid: 2d069a564c70e5c458f24fe49be60318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clearglass
+    second: {fileID: 2100000, guid: fde9980996c617b46872db754808d9cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2100000, guid: 9b49e726e427ffb48aaca4d067d9d410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert
+    second: {fileID: 2100000, guid: 27685e35cee0a5340ad087c9ed851dae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: 8007fb97a166cbe4db3f6dbd1a3a4291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: redglass
+    second: {fileID: 2100000, guid: 0ea73865a9a2cef49bf3c1abb78c9224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rim
+    second: {fileID: 2100000, guid: 8d0f6d049d446574e9645a8e214df629, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire
+    second: {fileID: 2100000, guid: 86cc4610ab261f14aa8957907419aa5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 916f9dff712c9724d9af4e3c70d87911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: windowglass
+    second: {fileID: 2100000, guid: 368b6a7f5fb66f6478aeb3c1eba0bfb4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
