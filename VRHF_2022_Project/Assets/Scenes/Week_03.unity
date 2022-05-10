@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.25920898, g: 0.27866384, b: 0.37835434, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11236,11 +11236,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowCaster (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6345818594639073308, guid: 0f0949bd2c25b7847bfe604e60612eef,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6550076972877091966, guid: 0f0949bd2c25b7847bfe604e60612eef,
         type: 3}
       propertyPath: m_RootOrder
@@ -12654,8 +12649,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -13622,11 +13617,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShadowCaster
-      objectReference: {fileID: 0}
-    - target: {fileID: 6345818594639073308, guid: 0f0949bd2c25b7847bfe604e60612eef,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6550076972877091966, guid: 0f0949bd2c25b7847bfe604e60612eef,
         type: 3}
@@ -14674,11 +14664,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ShadowCaster (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6345818594639073308, guid: 0f0949bd2c25b7847bfe604e60612eef,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6550076972877091966, guid: 0f0949bd2c25b7847bfe604e60612eef,
         type: 3}
@@ -15919,7 +15904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1645188845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19462,11 +19447,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowCaster
       objectReference: {fileID: 0}
-    - target: {fileID: 6345818594639073308, guid: 0f0949bd2c25b7847bfe604e60612eef,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6550076972877091966, guid: 0f0949bd2c25b7847bfe604e60612eef,
         type: 3}
       propertyPath: m_RootOrder
@@ -20174,6 +20154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Clouds
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635581298258352725, guid: 6b9ef71bf7f4783478a58fae4d05b850,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6635581298258577013, guid: 6b9ef71bf7f4783478a58fae4d05b850,
         type: 3}
