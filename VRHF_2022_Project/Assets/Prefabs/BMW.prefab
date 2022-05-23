@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1300932626488172175}
   - component: {fileID: 6263149883863454176}
   - component: {fileID: 913864689274037881}
+  - component: {fileID: 4655256866074921725}
   m_Layer: 0
   m_Name: BMW
   m_TagString: Untagged
@@ -77,7 +78,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300932626488172169}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.7841034, y: 1.4698334, z: 4.6844044}
@@ -178,6 +179,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4655256866074921725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300932626488172169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb36f4136c170347b5dcae0f8e99b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameLogic: {fileID: 0}
 --- !u!1001 &1300932626778598779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -253,3 +267,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1300932626778598779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2219358195696504874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b25f161a3eac35449a3432b689f785fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1300932626778598779}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &515924930639776536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2219358195696504874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ed5947caa4d884c9278c92d55eaf64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.13333334, g: 0.11372549, b: 0.34117648, a: 1}

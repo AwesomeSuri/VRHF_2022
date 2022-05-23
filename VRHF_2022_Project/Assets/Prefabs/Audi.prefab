@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3318001804309794139}
   - component: {fileID: 7392963475291782945}
   - component: {fileID: 2381158553476677420}
+  - component: {fileID: 1645652651971526691}
   m_Layer: 0
   m_Name: Audi
   m_TagString: Untagged
@@ -77,7 +78,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3318001804309794142}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.7841034, y: 1.4698334, z: 4.6844044}
@@ -178,6 +179,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1645652651971526691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318001804309794142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb36f4136c170347b5dcae0f8e99b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameLogic: {fileID: 0}
 --- !u!1001 &3318001804983468024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252,6 +266,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1fe53ab4ada6f247933ed136236c422, type: 3}
+--- !u!1 &2506957833592488617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e1fe53ab4ada6f247933ed136236c422,
+    type: 3}
+  m_PrefabInstance: {fileID: 3318001804983468024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5267307811926107231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2506957833592488617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ed5947caa4d884c9278c92d55eaf64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.13333334, g: 0.11372549, b: 0.34117648, a: 1}
 --- !u!4 &2990760080667416595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e1fe53ab4ada6f247933ed136236c422,

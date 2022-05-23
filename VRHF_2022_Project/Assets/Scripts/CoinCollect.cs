@@ -5,6 +5,8 @@ public class CoinCollect : MonoBehaviour
     // storing the hash of the trigger beforehand gives a bit of performance (good practice)
     private static readonly int Collect = Animator.StringToHash("Collect");
 
+    public GameLogic gameLogic;
+
     private Animator _animator;
     private AudioSource _audio;
     
@@ -30,6 +32,9 @@ public class CoinCollect : MonoBehaviour
         // otherwise trigger the collect animation and play the sound
         _animator.SetTrigger(Collect);
         _audio.Play();
+        
+        // increase the score
+        gameLogic.GetPoints();
     }
     
     /// <summary>
